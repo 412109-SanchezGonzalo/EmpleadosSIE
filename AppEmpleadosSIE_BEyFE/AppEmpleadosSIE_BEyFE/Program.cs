@@ -3,10 +3,15 @@ using AppEmpleadosSIE_BEyFE.Data.Repositories;
 using AppEmpleadosSIE_BEyFE.Services;
 using JobOclock_BackEnd.Data.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.HttpOverrides; // ← AGREGAR ESTA LÍNEA
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// 🔧 CONFIGURACIÓN PARA RENDER - Puerto dinámico
+var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 // 1️⃣ CORS
 builder.Services.AddCors(options =>
@@ -21,7 +26,6 @@ builder.Services.AddCors(options =>
 
 // 2️⃣ Inyección de dependencias para repositorios
 var connStr = builder.Configuration.GetConnectionString("EmpleadosSIE");
-
 builder.Services.AddScoped<IUsuarioRepository>(_ => new UsuarioRepository(connStr));
 builder.Services.AddScoped<IUsuarioXServicioRepository>(_ => new UsuarioXServicioRepository(connStr));
 
@@ -54,21 +58,29 @@ builder.Services.AddDirectoryBrowser();
 
 var app = builder.Build();
 
-// 6️⃣ Pipeline
-if (app.Environment.IsDevelopment())
+// 🔧 CONFIGURACIÓN PARA RENDER - Headers de proxy
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
+
+// 6️⃣ Pipeline - Swagger también en producción para testing
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// ❌ Comentar HTTPS redirect para Render
+// app.UseHttpsRedirection();
+
 app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 
 // 🌐 Servir archivos estáticos desde wwwroot
-app.UseDefaultFiles();   // sirve automáticamente index.html si está en wwwroot
-app.UseStaticFiles();    // habilita wwwroot
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 // 👉 Fallback: si no encuentra ruta, devuelve el index.html de Pages
 app.MapFallbackToFile("Pages/Login_page.html");

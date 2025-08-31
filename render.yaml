@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: empleadossie
+    rootDir: AppEmpleadosSIE_BEyFE/AppEmpleadosSIE_BEyFE
+    env: docker
+    plan: free
+    buildCommand: |
+      dotnet restore
+      dotnet publish -c Release -o out
+    startCommand: |
+      dotnet out/AppEmpleadosSIE_BEyFE.dll
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://+:10000
+      - key: ConnectionStrings__EmpleadosSIE
+        sync: false   # para que lo agregues manualmente en el dashboard
+      - key: Jwt__Key
+        sync: false   # agregar manualmente en dashboard
+      - key: Jwt__Issuer
+        value: https://empleadossie.onrender.com
+      - key: Jwt__Audience
+        value: https://empleadossie.onrender.com
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production

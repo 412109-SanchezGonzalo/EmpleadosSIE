@@ -1,9 +1,0 @@
-wwwroot\Pages\Home_User_Page.html
-wwwroot\Pages\Login_page.html
-wwwroot\Scripts\home_user_script.js
-wwwroot\Scripts\login_script.js
-wwwroot\Styles\home_user_styles.css
-wwwroot\Styles\login_styles.css
-wwwroot\Images\menu.png
-wwwroot\Images\salida.png
-wwwroot\Images\logo_SIE.png

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|c:\\users\\gonza sanchez\\desktop\\appempleadossie\\empleadossie\\appempleadossie_beyfe\\appempleadossie_beyfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|solutionrelative:appempleadossie_beyfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|c:\\users\\gonza sanchez\\desktop\\appempleadossie\\empleadossie\\appempleadossie_beyfe\\appempleadossie_beyfe\\controller\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|solutionrelative:appempleadossie_beyfe\\controller\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|c:\\users\\gonza sanchez\\desktop\\appempleadossie\\empleadossie\\appempleadossie_beyfe\\appempleadossie_beyfe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|solutionrelative:appempleadossie_beyfe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|c:\\users\\gonza sanchez\\desktop\\appempleadossie\\empleadossie\\appempleadossie_beyfe\\appempleadossie_beyfe\\appempleadossie_beyfe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|solutionrelative:appempleadossie_beyfe\\appempleadossie_beyfe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|c:\\users\\gonza sanchez\\desktop\\appempleadossie\\empleadossie\\appempleadossie_beyfe\\appempleadossie_beyfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|solutionrelative:appempleadossie_beyfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{559E066F-98F0-40E1-B836-B275664254ED}|AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj|c:\\users\\gonza sanchez\\desktop\\appempleadossie\\empleadossie\\appempleadossie_beyfe\\appempleadossie_beyfe\\services\\servicessie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Controller\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Controller\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Controller\\EmpleadosController.cs",
+              "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Controller\\EmpleadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T17:05:01.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Home_User_Page.html",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\wwwroot\\Pages\\Home_User_Page.html",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\wwwroot\\Pages\\Home_User_Page.html",
@@ -74,25 +91,23 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\wwwroot\\Pages\\Home_User_Page.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-31T16:33:14.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:33:14.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppEmpleadosSIE_BEyFE",
+              "DocumentIndex": 6,
+              "Title": "AppEmpleadosSIE_BEyFE.csproj",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj",
               "ToolTip": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj",
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-31T16:31:33.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:31:33.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ServicesSIE.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Services\\ServicesSIE.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Services\\ServicesSIE.cs",
@@ -100,12 +115,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Services\\ServicesSIE.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:17:40.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:17:40.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IServicesSIE.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Services\\IServicesSIE.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Services\\IServicesSIE.cs",
@@ -113,25 +127,24 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Services\\IServicesSIE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:17:31.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:17:31.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Program.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Program.cs",
               "ToolTip": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Program.cs",
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T16:15:06.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UsuarioXServicioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Data\\Repositories\\UsuarioXServicioRepository.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Data\\Repositories\\UsuarioXServicioRepository.cs",
@@ -139,12 +152,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Data\\Repositories\\UsuarioXServicioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:14:49.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:14:49.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UsuarioXServicio.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Models\\UsuarioXServicio.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Models\\UsuarioXServicio.cs",
@@ -152,12 +164,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Models\\UsuarioXServicio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:14:39.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:14:39.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IUsuarioXServicioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Data\\Interfaces\\IUsuarioXServicioRepository.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Data\\Interfaces\\IUsuarioXServicioRepository.cs",
@@ -165,12 +176,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Data\\Interfaces\\IUsuarioXServicioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:14:28.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:14:28.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Data\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Data\\Repositories\\UsuarioRepository.cs",
@@ -178,12 +188,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Data\\Repositories\\UsuarioRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:13:29.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:13:29.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Data\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Data\\Interfaces\\IUsuarioRepository.cs",
@@ -191,12 +200,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Data\\Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:13:08.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:13:08.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "JwtToken.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Models\\JwtToken.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Models\\JwtToken.cs",
@@ -204,12 +212,11 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Models\\JwtToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:12:27.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:12:27.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\Models\\Usuario.cs",
@@ -217,18 +224,17 @@
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:11:56.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:11:56.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\appsettings.json",
               "RelativeDocumentMoniker": "AppEmpleadosSIE_BEyFE\\appsettings.json",
               "ToolTip": "C:\\Users\\Gonza Sanchez\\Desktop\\AppEmpleadosSIE\\EmpleadosSIE\\AppEmpleadosSIE_BEyFE\\AppEmpleadosSIE_BEyFE\\appsettings.json",
               "RelativeToolTip": "AppEmpleadosSIE_BEyFE\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-31T16:10:52.573Z",
               "EditorCaption": ""
