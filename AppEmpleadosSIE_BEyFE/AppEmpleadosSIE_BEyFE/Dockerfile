@@ -1,3 +1,8 @@
+# Usa la imagen base de .NET 8.0 runtime para ejecutar
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build-env /app/out .
+
 COPY . .
 RUN dotnet restore AppEmpleadosSIE_BEyFE.csproj
 
@@ -9,11 +14,6 @@ COPY AppEmpleadosSIE_BEyFE/AppEmpleadosSIE_BEyFE.csproj ./
 
 # Restore dependencies
 RUN dotnet restore AppEmpleadosSIE_BEyFE.csproj
-
-# Usa la imagen base de .NET 8.0 runtime para ejecutar
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
-WORKDIR /app
-COPY --from=build-env /app/out .
 
 # Expone el puerto 10000 (requerido por Render)
 EXPOSE 10000
