@@ -1,7 +1,7 @@
 services:
   - type: web
     name: empleadossie
-    rootDir: AppEmpleadosSIE_BEyFE/AppEmpleadosSIE_BEyFE
+    rootDir: AppEmpleadosSIE_BEyFE
     env: docker
     plan: free
     buildCommand: |
@@ -12,13 +12,6 @@ services:
     envVars:
       - key: ASPNETCORE_URLS
         value: http://+:10000
-      - key: ConnectionStrings__EmpleadosSIE
+      - key: ConnectionStrings__Default
         sync: false   # para que lo agregues manualmente en el dashboard
-      - key: Jwt__Key
-        sync: false   # agregar manualmente en dashboard
-      - key: Jwt__Issuer
-        value: https://empleadossie.onrender.com
-      - key: Jwt__Audience
-        value: https://empleadossie.onrender.com
-      - key: ASPNETCORE_ENVIRONMENT
-        value: Production
+      
